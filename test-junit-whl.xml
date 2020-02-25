@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="1" failures="0" hostname="BEDDALL-DEVDESK" name="pytest" skipped="0" tests="1" time="0.149" timestamp="2020-02-25T15:39:41.969000"><testcase classname="" file="tests/test_simple.py" name="tests.test_simple" time="0.000"><error message="collection failure">..\py27venv\lib\site-packages\_pytest\python.py:507: in _importtestmodule
+    mod = self.fspath.pyimport(ensuresyspath=importmode)
+..\py27venv\lib\site-packages\py\_path\local.py:701: in pyimport
+    __import__(modname)
+E     File &quot;C:\repo\tox-repro\tests\test_simple.py&quot;, line 7
+E   SyntaxError: Non-ASCII character &apos;\xc3&apos; in file C:\repo\tox-repro\tests\test_simple.py on line 7, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details</error></testcase></testsuite></testsuites>
